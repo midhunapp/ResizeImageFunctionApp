@@ -39,4 +39,4 @@ jobs:
           app-name: 'Thumbnailimage'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_821B1B98D7D54B5DBA9F5DCAD2AA374D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9EE6CDAC8F5F4FFA9517F7FB01C00322 }}
