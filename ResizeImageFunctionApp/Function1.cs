@@ -14,6 +14,7 @@ namespace ResizeImageFunctionApp
         public static void Run([EventGridTrigger]EventGridEvent eventGridEvent, ILogger log)
         {
             log.LogInformation(eventGridEvent.Data.ToString());
+            //
         }
     }
 }
