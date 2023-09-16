@@ -2,6 +2,9 @@
     "IsEncrypted": false,
     "Values": {
         "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=myblobstorageaz204;AccountKey=6bxLMfukaGTjLMAPuubhtsYzS4bmeq0F0cC7icHXioDPZSPjUT8A2Ko7nLC6aa2kR3HGNo7AtsNx+AStgmPCaQ==;EndpointSuffix=core.windows.net",
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "THUMBNAIL_CONTAINER_NAME": "thumbnails",
+    "THUMBNAIL_WIDTH": "100",
+    "datatype": "binary"
     }
 }
